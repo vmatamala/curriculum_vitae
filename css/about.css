@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 120px;
+    background-image: url("../img/raya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #title { 
+    text-decoration: underline;
+  }
+
+  .txt {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .about-section {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    
+  }
+
+  .photo-section {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  div .mifoto{
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+  }
+
+  .study-section {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    
+  }
+
+  .img-study {
+    width: 20%;
+    padding: 10px;
+  }
+  div .logoUSS{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .social-icon i {
+    font-size: 20px;
+    color: #0077be;
+  }
+
+  footer {
+    margin-top: 3%;
+  }
+  

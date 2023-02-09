@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/ciudad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*height: 100vh;*/
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11%;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+
+  .line {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 25px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 24px;
+  }
+  
+  footer {
+    margin-top: 15%;
+  }
